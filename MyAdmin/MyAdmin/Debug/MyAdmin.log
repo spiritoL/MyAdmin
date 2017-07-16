@@ -1,0 +1,66 @@
+﻿生成启动时间为 2016/12/8 19:45:07。
+     1>项目“D:\MyCode\MyAdmin\MyAdmin\MyAdmin.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MyAdmin.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\vs2013\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 d:\vs2013\vc\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MyAdmin.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CfgView.cpp cfg_op.cpp DlgInitCfg.cpp DlgNetInfo.cpp DlgNodeCreate.cpp FormBackground.cpp GFXGROUPEDIT.CPP GFXOUTBARCTRL.CPP GFXPOPUPMENU.CPP GFXSPLITTERWND.CPP MainFrm.cpp MyAdmin.cpp MyAdminDoc.cpp MyAdminView.cpp SECMNGSECNODE.cpp SECMNGSRVCFG.cpp
+         SECMNGSRVCFG.cpp
+         SECMNGSECNODE.cpp
+         MyAdminView.cpp
+         MyAdminDoc.cpp
+         MyAdmin.cpp
+         MainFrm.cpp
+         GFXSPLITTERWND.CPP
+         GFXPOPUPMENU.CPP
+         GFXOUTBARCTRL.CPP
+         GFXGROUPEDIT.CPP
+         FormBackground.cpp
+         DlgNodeCreate.cpp
+         DlgNetInfo.cpp
+         DlgInitCfg.cpp
+         cfg_op.cpp
+     1>d:\mycode\myadmin\myadmin\cfg_op.cpp(25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\mycode\myadmin\myadmin\cfg_op.cpp(129): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\mycode\myadmin\myadmin\cfg_op.cpp(139): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\mycode\myadmin\myadmin\cfg_op.cpp(176): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\mycode\myadmin\myadmin\cfg_op.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\mycode\myadmin\myadmin\cfg_op.cpp(182): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\mycode\myadmin\myadmin\cfg_op.cpp(201): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         CfgView.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\MyAdmin.res" MyAdmin.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyCode\MyAdmin\Debug\MyAdmin.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\MyCode\MyAdmin\Debug\MyAdmin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyCode\MyAdmin\Debug\MyAdmin.lib" /MACHINE:X86 Debug\MyAdmin.res
+         Debug\CfgView.obj
+         Debug\cfg_op.obj
+         Debug\DlgInitCfg.obj
+         Debug\DlgNetInfo.obj
+         Debug\DlgNodeCreate.obj
+         Debug\FormBackground.obj
+         Debug\GFXGROUPEDIT.obj
+         Debug\GFXOUTBARCTRL.obj
+         Debug\GFXPOPUPMENU.obj
+         Debug\GFXSPLITTERWND.obj
+         Debug\MainFrm.obj
+         Debug\MyAdmin.obj
+         Debug\MyAdminDoc.obj
+         Debug\MyAdminView.obj
+         Debug\SECMNGSECNODE.obj
+         Debug\SECMNGSRVCFG.obj
+         Debug\stdafx.obj
+         MyAdmin.vcxproj -> D:\MyCode\MyAdmin\Debug\MyAdmin.exe
+     1>已完成生成项目“D:\MyCode\MyAdmin\MyAdmin\MyAdmin.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.86
